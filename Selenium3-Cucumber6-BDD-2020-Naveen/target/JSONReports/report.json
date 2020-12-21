@@ -1,0 +1,911 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-20T15:12:43.135Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 8562000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Navigate on the login page",
+        "description": "",
+        "id": "to-test-login-feature;navigate-on-the-login-page",
+        "after": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1251000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5451000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is launching the browser and enter the URL \"https://gocommerce.kmms.com.au\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://gocommerce.kmms.com.au",
+                  "offset": 49
+                }
+              ],
+              "location": "stepDefinations.LoginSteps.user_is_launching_the_browser_and_enter_the_url_something(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 116000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is clicks on the MyAccount dropdown",
+            "match": {
+              "location": "stepDefinations.LoginSteps.user_is_clicks_on_the_myaccount_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 650000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is clicks on the Login link",
+            "match": {
+              "location": "stepDefinations.LoginSteps.user_is_clicks_on_the_login_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should navigate on the login page",
+            "match": {
+              "location": "stepDefinations.LoginSteps.user_should_navigate_on_the_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User gets the title of the page",
+            "match": {
+              "location": "stepDefinations.LoginSteps.user_gets_the_title_of_the_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Page title should be \"Account Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Account Login",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinations.LoginSteps.page_title_should_be_something(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-20T15:12:59.564Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5781000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Forgotten Password link is present on the login page",
+        "description": "",
+        "id": "to-test-login-feature;forgotten-password-link-is-present-on-the-login-page",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 863000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2632000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User is on login page",
+            "match": {
+              "location": "stepDefinations.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 132000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Forgotten Password link should be displayed",
+            "match": {
+              "location": "stepDefinations.LoginSteps.forgotten_password_link_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-20T15:13:09.011Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 6162000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User can able to navigate on the Registration page after clicking on the continue button",
+        "description": "",
+        "id": "to-test-login-feature;user-can-able-to-navigate-on-the-registration-page-after-clicking-on-the-continue-button",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1472000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2158000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on login page",
+            "match": {
+              "location": "stepDefinations.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4681000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User is clicks on the continue button from the New customer section",
+            "match": {
+              "location": "stepDefinations.LoginSteps.user_is_clicks_on_the_continue_button_from_the_new_customer_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User should navigate on the Registration page",
+            "match": {
+              "location": "stepDefinations.LoginSteps.user_should_navigate_on_the_registration_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User gets the title of the page",
+            "match": {
+              "location": "stepDefinations.LoginSteps.user_gets_the_title_of_the_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Page title should be \"Register Account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Register Account",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinations.LoginSteps.page_title_should_be_something(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-20T15:13:23.542Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5926000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "User is able to login with valid email and valid password",
+        "description": "",
+        "id": "to-test-login-feature;user-is-able-to-login-with-valid-email-and-valid-password",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1229000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2075000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User is on login page",
+            "match": {
+              "location": "stepDefinations.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 369000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User enters valid email \"mahendi.customer1@grr.la\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mahendi.customer1@grr.la",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinations.LoginSteps.user_enters_valid_email_something(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 345000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User enters valid password \"India@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "India@123",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinations.LoginSteps.user_enters_valid_password_something(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1179000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User is clicks on the login button",
+            "match": {
+              "location": "stepDefinations.LoginSteps.user_is_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User should be redirected on the Account page",
+            "match": {
+              "location": "stepDefinations.LoginSteps.user_should_be_redirected_on_the_account_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User gets the title of the page",
+            "match": {
+              "location": "stepDefinations.LoginSteps.user_gets_the_title_of_the_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Page title should be \"My Account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "My Account",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinations.LoginSteps.page_title_should_be_something(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-20T15:13:34.715Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5773000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Validation message is displayed while login when email is correct and password is incorrect",
+        "description": "",
+        "id": "to-test-login-feature;validation-message-is-displayed-while-login-when-email-is-correct-and-password-is-incorrect",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 794000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2405000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User is on login page",
+            "match": {
+              "location": "stepDefinations.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 282000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User enters valid email \"mahendi.customer1@grr.la\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mahendi.customer1@grr.la",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinations.LoginSteps.user_enters_valid_email_something(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 233000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User enters invalid password \"India@1234567890\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "India@1234567890",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinations.LoginSteps.user_enters_invalid_password_something(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 638000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User is clicks on the login button",
+            "match": {
+              "location": "stepDefinations.LoginSteps.user_is_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Validation message should displayed",
+            "match": {
+              "location": "stepDefinations.LoginSteps.validation_message_should_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User should remain on the login and title should be \"Account Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Account Login",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinations.LoginSteps.user_should_remain_on_the_login_and_title_should_be_something(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-20T15:13:44.934Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5607000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "Validation message is displayed while login when email is incorrect and password is correct",
+        "description": "",
+        "id": "to-test-login-feature;validation-message-is-displayed-while-login-when-email-is-incorrect-and-password-is-correct",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1243000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2542000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User is on login page",
+            "match": {
+              "location": "stepDefinations.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 393000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User enters valid email \"mahendi.customer12345@grr.la\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mahendi.customer12345@grr.la",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinations.LoginSteps.user_enters_valid_email_something(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 256000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User enters invalid password \"India@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "India@123",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinations.LoginSteps.user_enters_invalid_password_something(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 640000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User is clicks on the login button",
+            "match": {
+              "location": "stepDefinations.LoginSteps.user_is_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62000000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Validation message should displayed",
+            "match": {
+              "location": "stepDefinations.LoginSteps.validation_message_should_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User should remain on the login and title should be \"Account Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Account Login",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinations.LoginSteps.user_should_remain_on_the_login_and_title_should_be_something(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-20T15:13:55.710Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 6427000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "Validation message is displayed while login when email is blank and password is also blank",
+        "description": "",
+        "id": "to-test-login-feature;validation-message-is-displayed-while-login-when-email-is-blank-and-password-is-also-blank",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1229000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3355000000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "User is on login page",
+            "match": {
+              "location": "stepDefinations.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 280000000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "User enters valid email \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinations.LoginSteps.user_enters_valid_email_something(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 207000000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "User enters invalid password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinations.LoginSteps.user_enters_invalid_password_something(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 741000000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "User is clicks on the login button",
+            "match": {
+              "location": "stepDefinations.LoginSteps.user_is_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63000000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "Validation message should displayed",
+            "match": {
+              "location": "stepDefinations.LoginSteps.validation_message_should_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "User should remain on the login and title should be \"Account Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Account Login",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinations.LoginSteps.user_should_remain_on_the_login_and_title_should_be_something(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To test Login feature",
+    "description": "  In order to perform the login functionality with valid and invalid scenario\u0027s\n  As a customer\n  I want to enter the email and password filed as per the condition",
+    "id": "to-test-login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/LoginPage.feature",
+    "tags": []
+  }
+]

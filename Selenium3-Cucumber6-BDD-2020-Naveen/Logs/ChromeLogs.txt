@@ -1,0 +1,187 @@
+[1603035883.893][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 43723
+[1603035883.893][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1603035884.317][INFO]: [1bce0940171dbde2432fd56c51392e98] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1603035884.323][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1603035884.326][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1603035884.329][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\mahen\AppData\Local\Temp\scoped_dir7884_1587411255" data:,
+[1603035885.625][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603035887.698][INFO]: [1bce0940171dbde2432fd56c51392e98] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.75",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "C:\\Users\\mahen\\AppData\\Local\\Temp\\scoped_dir7884_1587411255"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:58370"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "1bce0940171dbde2432fd56c51392e98"
+}
+[1603035887.733][INFO]: [1bce0940171dbde2432fd56c51392e98] COMMAND MaximizeWindow {
+
+}
+[1603035887.733][INFO]: Waiting for pending navigations...
+[1603035887.737][INFO]: Done waiting for pending navigations. Status: ok
+[1603035887.738][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603035889.917][INFO]: Waiting for pending navigations...
+[1603035889.919][INFO]: Done waiting for pending navigations. Status: ok
+[1603035889.919][INFO]: [1bce0940171dbde2432fd56c51392e98] RESPONSE MaximizeWindow {
+   "height": 744,
+   "width": 1382,
+   "x": -8,
+   "y": -8
+}
+[1603035889.932][INFO]: [1bce0940171dbde2432fd56c51392e98] COMMAND SetTimeouts {
+   "implicit": 10000
+}
+[1603035889.932][INFO]: [1bce0940171dbde2432fd56c51392e98] RESPONSE SetTimeouts
+[1603035889.942][INFO]: [1bce0940171dbde2432fd56c51392e98] COMMAND Navigate {
+   "url": "https://gocommerce.kmms.com.au"
+}
+[1603035889.942][INFO]: Waiting for pending navigations...
+[1603035889.944][INFO]: Done waiting for pending navigations. Status: ok
+[1603035890.871][INFO]: Waiting for pending navigations...
+[1603035893.604][INFO]: Done waiting for pending navigations. Status: ok
+[1603035893.604][INFO]: [1bce0940171dbde2432fd56c51392e98] RESPONSE Navigate
+[1603035893.614][INFO]: [1bce0940171dbde2432fd56c51392e98] COMMAND Navigate {
+   "url": "https://7eleven-dev.kmms.com.au"
+}
+[1603035893.614][INFO]: Waiting for pending navigations...
+[1603035893.615][INFO]: Done waiting for pending navigations. Status: ok
+[1603035895.093][INFO]: Waiting for pending navigations...
+[1603035897.196][INFO]: Done waiting for pending navigations. Status: ok
+[1603035897.196][INFO]: [1bce0940171dbde2432fd56c51392e98] RESPONSE Navigate
+[1603035897.204][INFO]: [1bce0940171dbde2432fd56c51392e98] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[contains(text(),'My Account')]"
+}
+[1603035897.204][INFO]: Waiting for pending navigations...
+[1603035897.207][INFO]: Done waiting for pending navigations. Status: ok
+[1603035897.227][INFO]: Waiting for pending navigations...
+[1603035897.228][INFO]: Done waiting for pending navigations. Status: ok
+[1603035897.228][INFO]: [1bce0940171dbde2432fd56c51392e98] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "352e807b-174f-4542-9a08-3136b35ec20d"
+}
+[1603035897.232][INFO]: [1bce0940171dbde2432fd56c51392e98] COMMAND ClickElement {
+   "id": "352e807b-174f-4542-9a08-3136b35ec20d"
+}
+[1603035897.232][INFO]: Waiting for pending navigations...
+[1603035897.233][INFO]: Done waiting for pending navigations. Status: ok
+[1603035897.339][INFO]: Waiting for pending navigations...
+[1603035897.345][INFO]: Done waiting for pending navigations. Status: ok
+[1603035897.345][INFO]: [1bce0940171dbde2432fd56c51392e98] RESPONSE ClickElement
+[1603035899.354][INFO]: [1bce0940171dbde2432fd56c51392e98] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'Login')]"
+}
+[1603035899.354][INFO]: Waiting for pending navigations...
+[1603035899.355][INFO]: Done waiting for pending navigations. Status: ok
+[1603035899.369][INFO]: Waiting for pending navigations...
+[1603035899.370][INFO]: Done waiting for pending navigations. Status: ok
+[1603035899.370][INFO]: [1bce0940171dbde2432fd56c51392e98] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "812919e3-564b-483b-8a0d-eb9ac37ae3e4"
+}
+[1603035899.374][INFO]: [1bce0940171dbde2432fd56c51392e98] COMMAND ClickElement {
+   "id": "812919e3-564b-483b-8a0d-eb9ac37ae3e4"
+}
+[1603035899.374][INFO]: Waiting for pending navigations...
+[1603035899.376][INFO]: Done waiting for pending navigations. Status: ok
+[1603035899.435][INFO]: Waiting for pending navigations...
+[1603035900.437][INFO]: Done waiting for pending navigations. Status: ok
+[1603035900.437][INFO]: [1bce0940171dbde2432fd56c51392e98] RESPONSE ClickElement
