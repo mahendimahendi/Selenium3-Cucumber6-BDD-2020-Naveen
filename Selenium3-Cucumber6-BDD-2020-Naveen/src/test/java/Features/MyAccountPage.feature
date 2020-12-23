@@ -17,8 +17,8 @@ Feature: To verify the functionalities on My Account Page
     Scenario: To count the links in My Account section
       Given User is on my account page
       Then User gets my account section
-      |Edit Account         |
-      |Password             |
-      |Address Book         |
-      |Modify your wish list|
+      |[Edit Account|
+      |Password|
+      |Address Book|
+      |Modify your wish list]|
       And My account section links count should be 4
