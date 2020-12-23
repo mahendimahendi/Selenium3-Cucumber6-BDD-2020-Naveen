@@ -47,7 +47,7 @@ public class MyAccountSteps {
 
     }
 
-    @And("^My account section links count should be {int}$")
+    @And("My account section links count should be {int}")
     public void my_account_section_links_count_should_be(Integer expectedCount) {
         Assert.assertTrue(myAccountPage.myAccountSectionLinksCounts() == expectedCount);
 
